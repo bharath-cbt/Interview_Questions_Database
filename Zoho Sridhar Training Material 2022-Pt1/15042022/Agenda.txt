@@ -1,0 +1,245 @@
+Number Disintegration
+~~~~~~~~~~~~~~~~~~~~~
+
+Disintegration - breaking into smaller pieces
+
+Unassemble and Assemble
+
+Numbers - Split into digits
+Strings -  characters
+BITS
+
+
+347826
+
+p1	p2
+34	7826
+
+?????
+
+Number of Digits - 2 Methods
+
+Sum of Digits  - 2 Methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Formula for splitting the number
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+num to split into two parts P1 and P2
+
+P1 = num / (10^number of digits in P2)
+P2 = num % (10^number of digits in P2)
+
+
+
+
+
+
+
+
+
+
+
+
+Harshad number
+In mathematics, a harshad number (or Niven number) in a given number base is an integer that is divisible by the sum of its digits when written in that base. Harshad numbers in base n are also known as n-harshad (or n-Niven) numbers. Harshad numbers were defined by D. R. Kaprekar, a mathematician from India.[1] The word "harshad" comes from the Sanskrit harṣa (joy) + da (give), meaning joy-giver. The term "Niven number" arose from a paper delivered by Ivan M. Niven at a conference on number theory in 1977.
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 18, 20, 21, 24, 27, 30, 36, 40, 42, 45, 48, 50, 54, 60, 63, 70, 72, 80, 81, 84, 90, 100, 102, 108, 110, 111, 112, 114, 117, 120, 126, 132, 133, 135, 140, 144, 150, 152, 153, 156, 162, 171, 180, 190, 192, 195, 198, 200,
+
+
+
+133 -> sod is 7
+133/7 = 19 remainder 0
+133 is Harshad Number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read Phone number
+L  ----> R
+9442161065
+Nine Four Four Two One Six One Zero Six Five
+6383236619
+Six Three Eight Three Two Three Six Six One Nine
+
+
+* How to ACCESS the Digits
+* Right to Left ot Left to Right
+
+
+num 9442161065 442161065 42161065 2161065 161065 61065 1065 65 65 5 0
+p1	p2
+9	442161065
+4	42161065
+4	2161065
+2	161065
+1	61065
+6	1065
+1	065
+0	65 
+6	5
+5	0
+
+10^number of digits in p2
+
+
+
+
+
+9442161065 / 1			9442161065
+9442161065 / 10			944216106
+9442161065 / 100 		94421610
+9442161065 / 1000		9442161
+9442161065 / 10000		944216
+9442161065 / 100000		94421
+9442161065 / 1000000		9442
+9442161065 / 10000000		944
+9442161065 / 100000000		94
+9442161065 / 1000000000		9
+
+
+power 1000000000
+
+num 9442161065 442161065
+while(num/power > 9)
+{
+power *= 10;
+}
+
+while(
+{
+digit = num / power; // 9 Nine
+switch()
+{
+}
+num = num % power;
+power /= 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Armstrong Number
+In number theory, a narcissistic number (also known as a pluperfect digital invariant (PPDI), an Armstrong number (after Michael F. Armstrong) or a plus perfect number) in a given number base b is a number that is the sum of its own digits each raised to the power of the number of digits.
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 153, 370, 371, 407, 1634, 8208, 9474, 54748, 92727, 93084, 548834, ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Number Integration
+~~~~~~~~~~~~~~~~~~
+
+Reverse a given Number
+
+Even number of Digits
+128960
++
+608912
+
+
+12345678
+78563412
+
+Given Even number of Digits
+
+Input  : 12345678
+Output : 21436587
+
+Input  : 694826
+Output : 968426
+
+
+
+ADAM Number
+
+
+113 is an ADAM Number
+square(113) 12769
+reverse(113) 311
+square(311) 96721
+reverse(12769) 96721
+
+
+
+
+
+
+Zoho Number Rotation
+
+
+Storage Classification
+~~~~~~~~~~~~~~~~~~~~~~
+
+{
+}
+ Every { } has the facility of creating it's own local variables, they are available only inside the curly braces
