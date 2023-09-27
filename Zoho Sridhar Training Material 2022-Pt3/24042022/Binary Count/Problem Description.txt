@@ -1,0 +1,17 @@
+Let N be an integer, you should calculate a number of ones in the binary representation of N.
+
+Input Format
+Input consists of an integer
+
+Output Format
+The output consists of a single integer representing count the number of ones in the binary representation of N
+
+Sample Input1
+5
+
+Sample Output1
+2
+
+Explanation:
+Binary representation of 5 is 101, number of ones in 5 is 2
+
